@@ -1,0 +1,27 @@
+ 
+# Visual Studio
+.vs/
+
+# Build folders
+Debug/
+Release/
+x64/
+**/x64/
+
+# User settings
+*.user
+*.suo
+
+# Build artifacts
+*.obj
+*.ilk
+*.idb
+*.pdb
+*.recipe
+*.log
+*.tlog
+*.lastbuildstate
+
+# Windows
+Thumbs.db
+Desktop.ini

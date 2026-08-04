@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="UAS_OpenGL/UAS_OpenGL.vcxproj" Id="d7ed9611-824b-4a01-8b77-3195726cb78b" />
+</Solution>
