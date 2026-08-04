@@ -1,68 +1,65 @@
 # 🏠 UAS Grafika Komputer - Rumah 3D OpenGL
 
-## Deskripsi
-
-Proyek UAS Mata Kuliah Grafika Komputer yang dibuat menggunakan **C++**, **OpenGL**, dan **FreeGLUT**. Program ini menampilkan sebuah model rumah 3D lengkap dengan fitur interaktif seperti kontrol kamera, pencahayaan, dan animasi pintu.
+Proyek UAS Mata Kuliah **Grafika Komputer** yang dibuat menggunakan **C++**, **OpenGL**, dan **FreeGLUT**. Program ini menampilkan sebuah rumah 3D lengkap dengan objek pendukung serta fitur interaktif seperti kontrol kamera, pencahayaan, dan animasi pintu.
 
 ---
 
-## Fitur
+## 📸 Tampilan Program
 
-- 🏠 Model rumah 3D
-- 🏡 Atap rumah
-- 🚪 Pintu dapat dibuka dan ditutup
-- 🪟 Jendela 3D
-- 🧱 Pondasi rumah
-- 🏛️ Teras dan tangga
-- 🏭 Cerobong asap
-- 🌱 Ground (tanah)
-- 💡 Lighting ON/OFF
-- 🎥 Kamera interaktif
-- 🔍 Zoom In / Zoom Out
+### Tampilan Depan
+![Front View](assets/front-view.png)
+
+### Tampilan Samping
+![Side View](assets/side-view.png)
+
+### Tampilan Atas
+![Top View](assets/top-view.png)
+
+### Pintu Terbuka
+![Door Open](assets/door-open.png)
+
+### Lighting ON
+![Lighting On](assets/lighting-on.png)
+
+### Lighting OFF
+![Lighting Off](assets/lighting-off.png)
 
 ---
 
-## Kontrol
+## ✨ Fitur
+
+- Rumah 3D menggunakan OpenGL
+- Atap rumah
+- Pintu dapat dibuka dan ditutup
+- Jendela dengan bingkai
+- Pondasi rumah
+- Teras dan tangga
+- Cerobong asap
+- Ground (tanah)
+- Kamera interaktif
+- Zoom In / Zoom Out
+- Lighting ON / OFF
+
+---
+
+## 🎮 Kontrol
 
 | Tombol | Fungsi |
-|--------|--------|
-| A | Putar kamera ke kiri |
-| D | Putar kamera ke kanan |
-| W | Kamera naik |
-| S | Kamera turun |
-| Q | Zoom In |
-| E | Zoom Out |
-| O | Membuka pintu |
-| P | Menutup pintu |
-| L | Mengaktifkan / Menonaktifkan lighting |
-| ESC | Keluar dari program |
+|---------|--------|
+| **A** | Putar kamera ke kiri |
+| **D** | Putar kamera ke kanan |
+| **W** | Kamera naik |
+| **S** | Kamera turun |
+| **Q** | Zoom In |
+| **E** | Zoom Out |
+| **O** | Membuka pintu |
+| **P** | Menutup pintu |
+| **L** | Mengaktifkan / Menonaktifkan Lighting |
+| **ESC** | Keluar dari aplikasi |
 
 ---
 
-## Struktur Proyek
-
-```text
-UAS_OpenGL/
-│
-├── dependencies/
-│   └── freeglut/
-│
-├── UAS_OpenGL/
-│   ├── main.cpp
-│   ├── house.cpp
-│   ├── house.h
-│   ├── camera.cpp
-│   ├── camera.h
-│   ├── render.cpp
-│   ├── render.h
-│   └── UAS_OpenGL.vcxproj
-│
-└── UAS_OpenGL.slnx
-```
-
----
-
-## Teknologi
+## 🛠️ Teknologi
 
 - C++
 - OpenGL
@@ -71,7 +68,33 @@ UAS_OpenGL/
 
 ---
 
-## Cara Menjalankan
+## 📁 Struktur Proyek
+
+```text
+UAS-Grafika-Komputer/
+│
+├── assets/
+├── dependencies/
+│   └── freeglut/
+│
+├── UAS_OpenGL/
+│   ├── main.cpp
+│   ├── camera.cpp
+│   ├── camera.h
+│   ├── house.cpp
+│   ├── house.h
+│   ├── render.cpp
+│   ├── render.h
+│   └── UAS_OpenGL.vcxproj
+│
+├── .gitignore
+├── README.md
+└── UAS_OpenGL.slnx
+```
+
+---
+
+## 🚀 Cara Menjalankan
 
 1. Clone repository.
 
@@ -91,6 +114,6 @@ menggunakan Visual Studio.
 
 ---
 
-## Lisensi
+## 📄 Lisensi
 
 Repository ini dibuat untuk keperluan **UAS Mata Kuliah Grafika Komputer**.
